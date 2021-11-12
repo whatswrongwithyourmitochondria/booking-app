@@ -8,6 +8,7 @@ run locally: **streamlit run main.py**
 
 The app consists of three pages:
 - *bookings_page* is responsible for booking tables in advance entering guest's name, phonenumber, time and period as well as a certain table. Tables are bound with time, so if a table was previously booked for a certain period of time, you can't book this table during that period. Also this page displays only availiable tables with a number of seats. 
+Guest's phone number should be exactly of the length of 10, otherwise it throws warning "Invalid phone number" and doesn't process this booking.
 - *tables_page* is a page for tables management. It has two main parts:
   - A part for instant booking for those who came without reservation and instant table releasing;
   - A part to add a new table to the pool of existing tables. 
