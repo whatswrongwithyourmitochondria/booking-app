@@ -2,6 +2,8 @@
 A web application is designed to track bookings and manage tables in a restaurant.
 (made with the help of Streamlit library: https://docs.streamlit.io/)
 
+The app is deployed on heroku: https://stream-booking-app.herokuapp.com/
+
 run locally: **streamlit run main.py**
 
 # App functionality
